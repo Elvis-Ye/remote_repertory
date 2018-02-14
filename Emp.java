@@ -8,4 +8,10 @@ public class Emp implements Serializable{
 	private Date hiredate;
 	private Double sal;
 	private Double comm;
+	@Override
+	public String toString() {
+		return "Emp [empNo=" + empNo + ", empName=" + empName + ", hiredate="
+				+ hiredate + ", sal=" + sal + ", comm=" + comm + "]";
+	}
+	
 }
